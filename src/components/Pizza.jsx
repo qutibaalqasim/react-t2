@@ -26,7 +26,7 @@ export default function Pizza() {
                         <h2 className='card-title'>{product.title.split(' ').slice(0,3).join(' ')}</h2>
                         </div>
                         <div className='card-body'>
-                        <img src={product.image_url}  />
+                        <img src={product.image_url} className= {`${style.img}`}  />
                         </div>
                         <div className='card-footer'>
                             <p>{product.publisher}</p>
